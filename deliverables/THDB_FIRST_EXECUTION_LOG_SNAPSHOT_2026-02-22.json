@@ -1,0 +1,13 @@
+{
+  "thdbTaskId": "THDBokxNJUA91tOrSemxq",
+  "runUrl": "https://github.com/mgnlia/kidrunner-android-prototype/actions/runs/22276247886",
+  "jobUrl": "https://github.com/mgnlia/kidrunner-android-prototype/actions/runs/22276247886/job/64438867711",
+  "jobsApiUrl": "https://api.github.com/repos/mgnlia/kidrunner-android-prototype/actions/runs/22276247886/jobs",
+  "annotationsUrl": "https://api.github.com/repos/mgnlia/kidrunner-android-prototype/check-runs/64438867711/annotations",
+  "utcStarted": "2026-02-22T11:28:13Z",
+  "utcCompleted": "2026-02-22T11:33:07Z",
+  "conclusion": "failure",
+  "failedStep": "Assemble Debug",
+  "skippedStep": "Run Unit Tests",
+  "failureEvidence": "Process completed with exit code 1"
+}
