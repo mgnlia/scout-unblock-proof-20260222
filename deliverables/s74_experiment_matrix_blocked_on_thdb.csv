@@ -1,0 +1,6 @@
+experiment_id,hypothesis,metric_primary,metric_secondary,baseline,target,window_days,owner,status,blocker,required_evidence_url
+s74-exp-01,Safer title variant improves listing CTR without policy risk,listing_ctr,install_cv_rate,{{BASELINE_CTR}},{{TARGET_CTR}},7,{{OWNER}},BLOCKED,THDB first logs pending,{{THDB_RUN_URL}}
+s74-exp-02,Screenshot ordering emphasizing gameplay loop improves install conversion,install_cv_rate,store_bounce_rate,{{BASELINE_CVR}},{{TARGET_CVR}},7,{{OWNER}},BLOCKED,THDB first logs pending,{{THDB_RUN_URL}}
+s74-exp-03,Child-safe onboarding copy improves D1 retention,d1_retention,session_length_p50,{{BASELINE_D1}},{{TARGET_D1}},14,{{OWNER}},BLOCKED,THDB first logs pending,{{THDB_RUN_URL}}
+s74-exp-04,Unknown-age fail-closed messaging reduces unsafe ad-path attempts,unsafe_ad_path_events,ad_init_attempts_unknown_age,{{BASELINE_UNSAFE}},{{TARGET_UNSAFE}},14,{{OWNER}},BLOCKED,THDB first logs pending,{{THDB_RUNTIME_LOG_URL}}
+s74-exp-05,Parental-gate placement reduces accidental external-link taps,parent_gate_fail_rate,external_link_attempts_u13,{{BASELINE_GATE}},{{TARGET_GATE}},14,{{OWNER}},BLOCKED,THDB first logs pending,{{THDB_RUNTIME_LOG_URL}}
